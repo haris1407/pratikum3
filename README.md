@@ -1,4 +1,4 @@
-# TIPE-DATA-VARIABLE-DAN-OPERATOR
+# # TIPE-DATA-VARIABLE-DAN-OPERATOR
 Nama: HARIS ADRIANSYAH
 
 Kelas: TI.24.A4
@@ -7,9 +7,9 @@ NIM: 312410286
 
 Matkul: Bahasa Pemrograman
 
-LATIHAN1
-gambar
-
+# LATIHAN1
+![gambar](https://github.com/andreanbadeh/fotoo/blob/b7f3e037371e3220864e809559de3a357e404c7b/Screenshot%202024-10-15%20143542.png)
+```python
 #penggunaan end
 print('A', end='')
 print('B', end='')
@@ -26,48 +26,63 @@ print(w, x, y, z, sep=',')
 print(w, x, y, z, sep='')
 print(w, x, y, z, sep=':')
 print(w, x, y, z, sep='.....')
+````
+
 Penggunaan END Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris. secara default penggunaan end adalah untuk ganti baris.
 
+```python
 print('A', end='')
 print('B', end='')
 print('C', end='')
+```
 Penggunaan print () digunakan untuk mencetak output, seperti syntax dibawah ini :
-
+```python
 print()
+```
 Syntax dibawah ini digunakan untuk menampilkan output berupa string
-
+```python
 print('X')
 print('Y')
 print('z')
+```
 Hasil dari source code tersebut seperti gambar dibawah ini :
 
-gambar
+![gambar](https://github.com/andreanbadeh/fotoo/blob/5897a8fe928d65b7b12aa3a8408391ca3dfd490c/Screenshot%202024-10-15%20133640.png)
 
-Penggunaan separator Pendeklarasian beberapa variable beserta nilainya
-
+Penggunaan separator
+Pendeklarasian beberapa variable beserta nilainya
+```python
 w,x,y,z=10,15,20,25
+```
 Menampilkan hasil dari variable tiap-tiap variable
-
+```python
 print(w,x,y,z)
+```
 Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemirsah : (koma)
-
+```python
 print(w,x,y,z,sep=",")
+```
 Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemirsah
 
+```python
 print(w,x,y,z,sep="")
+```
 Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemirsah : (titik dua)
-
+```python
 print(w,x,y,z,sep=":")
+```
 Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemirsah -----
-
+```python
 print(w,x,y,z,sep="-----")
+```
 hasil dari syntax / source code diatas adalah seperti berikut ini :
 
-gambar
+![gambar](https://github.com/andreanbadeh/fotoo/blob/5897a8fe928d65b7b12aa3a8408391ca3dfd490c/Screenshot%202024-10-15%20133703.png)
 
-LATIHAN 2
-gambar
+## LATIHAN 2
 
+![gambar](https://github.com/andreanbadeh/fotoo/blob/9b329a799a6e999ad0d62d0fa79e00a0392c3a39/Screenshot%202024-10-15%20135657.png)
+```python
 a=int(input("masukkan nilai a:"))
 b=int(input("masukkan nilai b:"))
 print("variable a=",a)
@@ -79,14 +94,18 @@ a=int(a)
 b=int(b)
 print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
 print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
 Kita akan coba lagi untuk run file tersebut, maka akan muncul seperti gambar dibawah ini :
 
-gambar
+![gambar](https://github.com/andreanbadeh/fotoo/blob/2c18a50361f6617ac1c5624ae6ca16c2449b0885/Screenshot%202024-10-15%20140328.png)
 
-String Format String formatting atau pemformatan string memungkinan kita menyuntikkan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau string concatenation. Penggunaan source code yang di berikan oleh dosen seperti berikut :
+String Format
+String formatting atau pemformatan string memungkinan kita menyuntikkan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau string concatenation.
+Penggunaan source code yang di berikan oleh dosen seperti berikut :
 
-gambar
+![gambar](https://github.com/andreanbadeh/fotoo/blob/2c18a50361f6617ac1c5624ae6ca16c2449b0885/Screenshot%202024-10-15%20140431.png)
 
+```python
 #string format 1
 print(0, 10**0)
 print(1, 10**1)
@@ -111,41 +130,51 @@ print('{0:>3} {1:>16}'.format(7, 10**7))
 print('{0:>3} {1:>16}'.format(8, 10**8))
 print('{0:>3} {1:>16}'.format(9, 10**9))
 print('{0:>3} {1:>16}'.format(10, 10**10))
-String Format 1 Pada syntax / source code strring format satu akan menampilkan output berupa 2 outputan. Yang pertama (sebelah kiri) akan menampilkan angka urut dari angka 0 hingga 10, sedangkan untuk sebelah kanan akan menampilkan Operasi Aritmatika Pangkat. Dengan ketentuan sebagai berikut, Operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua] ) Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10, dengan output sebagai berikut :
+```
+String Format 1
+Pada syntax / source code strring format satu akan menampilkan output berupa 2 outputan.
+Yang pertama (sebelah kiri) akan menampilkan angka urut dari angka 0 hingga 10, sedangkan untuk sebelah kanan akan menampilkan Operasi Aritmatika Pangkat.
+Dengan ketentuan sebagai berikut, Operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua] )
+Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10, dengan output sebagai berikut :
 
-gambar
+![gambar](https://github.com/andreanbadeh/fotoo/blob/77df8a18e59b99556aa69a5514bbdc67d555516d/Screenshot%202024-10-15%20141036.png)
 
-2 * String Format 2* Pada syntax atau source code string format dua akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri ) Dengan ketentuan sebagai berikut :
+2 * String Format 2*
+Pada syntax atau source code string format dua akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri )
+Dengan ketentuan sebagai berikut :
 
 secara Default, .format() menggunakan rata kiri, angka ke kanan. kita dapat menggunakan opsi opsional <,^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan .format() sebagai berikut :
 
-gambar
+![gambar](https://github.com/andreanbadeh/fotoo/blob/deb296e96f491981b8dede207ba1eb8456c03837/Screenshot%202024-10-15%20141347.png)
 
 Untuk hasil dari String Format 2 adalah :
 
-Tugas Latihan
-gambar
+## Tugas Latihan
+![gambar](https://github.com/andreanbadeh/fotoo/blob/fee7f554ebd75304da4d93e6eef690efad8d7166/Screenshot%202024-10-15%20142113.png)
 
-Flowchart Bilangan terbesar dari 3 buah bilangan
-gambar
+# Flowchart Bilangan terbesar dari 3 buah bilangan
+![gambar](https://github.com/andreanbadeh/fotoo/blob/bd9e3adde0f5631af42bdff66f2ec22c17f9056e/Gambar%20WhatsApp%202024-10-17%20pukul%2000.34.59_95aec777.jpg)
 
-Program bilangan terbesar dari 3 buah yg di inputkan
-gambar melalui pernyataan kondisi if-else, program membandingkan bilangan pertama dengan bilangan kedua dan ketiga, dan seterusnya
+# Program bilangan terbesar dari 3 buah yg di inputkan
+![gambar](https://github.com/Abcdeflahhh/foto-flowchart/blob/a7908d4c8916a7be7bbb47fb40cb386299908970/Gambar%20WhatsApp%202024-10-18%20pukul%2010.48.10_a0a2f327.jpg)
+melalui pernyataan kondisi if-else, program membandingkan bilangan pertama dengan bilangan kedua dan ketiga, dan seterusnya
 
 Hasil output
 
-gambar
+![gambar](https://github.com/Abcdeflahhh/foto-flowchart/blob/a7908d4c8916a7be7bbb47fb40cb386299908970/Gambar%20WhatsApp%202024-10-18%20pukul%2010.48.10_fb68ec98.jpg)
 
 untuk meminta pengguna memasukan tiga bilangan
 
-Flowchart Bilangan terbesar dari N bilangan
-gambar
+# Flowchart Bilangan terbesar dari N bilangan
+![gambar](https://github.com/andreanbadeh/fotoo/blob/0d670d30789235f363332c5840dee4a8416d3b68/Gambar%20WhatsApp%202024-10-17%20pukul%2012.53.34_cd402e92.jpg)
 
-Program bilangan terbesar N
-gambar setiap angka yang diinputkan diperiksa apakah lebih besar dari angka terbesar yang saat ini disimpan
+# Program bilangan terbesar N 
+![gambar](https://github.com/Abcdeflahhh/foto-flowchart/blob/be0ffbade3be1759ee41167716ae93d5bec42ce9/Gambar%20WhatsApp%202024-10-18%20pukul%2011.15.42_01bdaa17.jpg)
+setiap angka yang diinputkan diperiksa apakah lebih besar dari angka terbesar yang saat ini disimpan
 
 Hasil output
 
-gambar
+![gambar](https://github.com/Abcdeflahhh/foto-flowchart/blob/be0ffbade3be1759ee41167716ae93d5bec42ce9/Gambar%20WhatsApp%202024-10-18%20pukul%2011.15.42_69b3c540.jpg)
 
 jika pengguna memasukan angka 0, program akan memberi tahu bahwa tidak ada bilangan yang dimasukkan dan tidak dapat melanjutkan untuk meminta bilangan selanjutnya
+
